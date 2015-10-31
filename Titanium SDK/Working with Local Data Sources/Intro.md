@@ -2,7 +2,7 @@
 
 > Even the most rudimentary applications usually have some data storage requirements. Perhaps you want to save a user's name or preferences. Your app could download product information so that it's available when the network is not available. Or, maybe users snap photos which you save as files for later use within your application. In any of these cases, storing data on the user's device is a critical feature. In this chapter, you'll explore Titanium's uniform, cross-platform methods for accessing local data stores.
 
->  即使最早期的app通常有存储的必要. 可能你想保存用户的名字 或者配置. 你的app 会在没网的情况下 下载产品信息来保证可用, 或者, 可能用户使用你的应用拍照片,稍后你要保存成files. 在这种情况下, 存数数据到用户的设备上是不明智的. 本章, 你会探索 Titanium的 uniform, cross-platform methods 来存储本地数据.
+>  即使是最基础的app通常也有一些存数的必要. 可能你想保存用户的名字 或者配置. 你的app 会在没网的情况下 下载产品信息来保证可用, 或者, 可能用户使用你的应用拍照片,稍后你要保存成files. 在这种情况下, 存数数据到用户的设备上是不明智的. 本章, 你会探索 Titanium的 uniform, cross-platform methods 来存储本地数据.
 
 ## Sections in this chapter
 **本章节**
