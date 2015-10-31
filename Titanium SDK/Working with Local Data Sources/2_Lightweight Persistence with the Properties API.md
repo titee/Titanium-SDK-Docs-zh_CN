@@ -9,17 +9,17 @@
 
 In this chapter, we'll dig deep into the Ti.App.Properties API. You'll learn how to store both simple and complex data in app properties and retrieve that data later.
 
-在本章, 我们将深入挖掘 Ti.App.Properties API. 你将会学到 怎么存储简单或者复杂的数据到 app properties中, 并且 取出.
+**在本章, 我们将深入挖掘 Ti.App.Properties API. 你将会学到 怎么存储简单或者复杂的数据到 app properties中, 并且 取出.**
 
 ## Contents
 
 > Both iOS and Android store app properties in special files on the filesystem. Natively, iOS properties are known as NSUserDefaults, which are stored in .plist files in the application's library directory. Android stores them in standard xml text files at /data/data/com.domainname.appname/shared_prefs/titanium.xml. Titanium provides a uniform means to set and get app properties via the Titanium.App.Properties API.
 
->  iOS and Android 都存储 app properties 到文件系统的指定文件中. iOS的 properties 是 NSUserDefaults, 存储在 app的library目录下的 名为.plist 文件. Android 存储到标准的 xml文件到 /data/data/com.domainname.appname/shared_prefs/titanium.xml 中. Titanium 提供 一个合适的方式去 set get app properties. 这个方式就是 Titanium.App.Properties API.
+**iOS and Android 都存储 app properties 到文件系统的指定文件中. iOS的 properties 是 NSUserDefaults, 存储在 app的library目录下的 名为.plist 文件. Android 存储到标准的 xml文件到 /data/data/com.domainname.appname/shared_prefs/titanium.xml 中. Titanium 提供 一个合适的方式去 set get app properties. 这个方式就是 Titanium.App.Properties API.**
 
 > There isn't a specific limit on the amount of data you can store in properties. However, an application's property data is loaded into memory as the application launches, and exists there until it closes. This allows very rapid access to it, but at the cost of the increased baseline memory used by the application.
 
->  properties 并没有指定 存储数据的大小 数量规定. 然而, 一个应用的 property data是随应用启动加载到内存中, 知道关闭应用. 这能快速取用, 但是这同时增加的应用的内存使用成本.
+**properties 并没有指定 存储数据的大小 数量规定. 然而, 一个应用的 property data是随应用启动加载到内存中, 知道关闭应用. 这能快速取用, 但是这同时增加的应用的内存使用成本.**
 
 ## Reading and Writing Properties
 
@@ -34,8 +34,8 @@ Titanium.App.Properties has six sets of get/set methods for handling six differe
 
 The get methods accept a property name and its default value. Thus, if a property has never been set before, the default value will be returned. Each set method requires a property name and property value pair. All of these methods are demonstrated below:
 
-**get** 方法 接收 property name 和它的默认值,
-如果property之前没有被set, 默认值会返回. 每一个set方法 包含 值键对.
+**get 方法 接收 property name 和它的默认值,
+如果property之前没有被set, 默认值会返回. 每一个set方法 包含 值键对.**
 如下示范:
 
 ```
