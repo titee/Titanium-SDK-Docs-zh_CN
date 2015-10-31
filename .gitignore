@@ -1,0 +1,8 @@
+.bundle
+.sass-cache/
+.idea/*
+.idea/
+.DS_Store
+tags
+*.swp
+*.log
